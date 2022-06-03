@@ -75,6 +75,7 @@ When a new file is added or deleted from the
 * [Deploy your own custom model on GCP’s AI platform](https://medium.com/searce/deploy-your-own-custom-model-on-gcps-ai-platform-7e42a5721b43)
 * [How to carry out CI/CD in Machine Learning (“MLOps”) using Kubeflow ML pipelines](https://medium.com/google-cloud/how-to-carry-out-ci-cd-in-machine-learning-mlops-using-kubeflow-ml-pipelines-part-3-bdaf68082112)
 * [GCP documentation on model deployment](https://cloud.google.com/ai-platform/prediction/docs/deploying-models)
+* [What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
 
 
 ## 📽 Video Demo (Upload to YT?. Just record what I do)
