@@ -9,7 +9,7 @@ In capstone 4 you will demonstrate how to set up and deploy a simple ML CI/CD pi
 
 ## ✍ Authors
 * Pia-Auora McLaughlin, [piamclaughlin](https://github.com/PiaMcLaughlin)
-* Sabeel Rehman, [SabeelRehman] (GitHub Link)
+* Sabeel Rehman, [SabeelRehman](https://github.com/sabeelrehman))
 * Amit Som, [AmitSom] (GitHub Link)
 
 ## 🗺 Objectives
