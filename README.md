@@ -78,6 +78,4 @@ When a new file is added or deleted from the
 
 
 ## 📽 Video Demo (Upload to YT?. Just record what I do)
-There's a short video demo of the project available [here](link goes here). 
-
-Note that it was created for a DevOps course at KTH with a 3 minute limit and is therefore very breif and compressed to fit these requirements. 
+Demo video [here](link goes here). 
