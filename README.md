@@ -44,9 +44,3 @@ Deploy your own Custom Model on GCP AI Platform
 How to Carry out CICD in ML MLOPS using Kubeflow ML Pipelines
 Deploying Models
 What is CDCD?
-
-
--	
-
-
-![image](https://user-images.githubusercontent.com/32612535/171929046-f60ff2dd-363c-4a42-9dd8-f6dad4ab704c.png)
