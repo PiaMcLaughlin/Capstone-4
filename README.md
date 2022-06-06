@@ -50,9 +50,12 @@ Do the following in the {capstone4_initals)_bucket
     `–t gcr.io/ml-pipeline-309409/ml-demo-deploy-toai`
 6.	Create a pipeline in python using the Kubeflow API 
     The pipeline can runas a script or manually at the pipeline dashboard from 1
-**##In order to run the pipeline, you need to have the appropriate role**
 
-<img src = "[https://global-uploads.webflow.com/5d3ec351b1eba4332d213004/5ec509611b60fb7f14e7e7ce_kubeflow-logo.png](https://www.clevr.com/hs-fs/hubfs/common_stages_in_CICD_process.png?width=1594&name=common_stages_in_CICD_process.png)" align="right" height = 50 width = 60/>
+**In order to run the pipeline, you need to have the appropriate role**
+
+<p align="center">
+  <img width="600" alt="cicd" src="![image](https://user-images.githubusercontent.com/32612535/172225468-265eed77-bc81-4018-867b-149d682d210b.png)">
+</p>
 
 ## 🛠 CI
 Continuous Testing (CI) To set up CI and rebuild at every push:
@@ -78,6 +81,7 @@ When a new file is added or deleted from the
 * [How to carry out CI/CD in Machine Learning (“MLOps”) using Kubeflow ML pipelines](https://medium.com/google-cloud/how-to-carry-out-ci-cd-in-machine-learning-mlops-using-kubeflow-ml-pipelines-part-3-bdaf68082112)
 * [GCP documentation on model deployment](https://cloud.google.com/ai-platform/prediction/docs/deploying-models)
 * [What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
+* [Kubeflow](https://www.kubeflow.org/docs/components/pipelines/introduction/)
 
 
 ## 📽 Video Demo (Upload to YT?. Just record what I do)
