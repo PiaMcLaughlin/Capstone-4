@@ -8,7 +8,7 @@
 In capstone 4 you will demonstrate how to set up and deploy a simple ML CI/CD pipeline using Google Clouds AI Platform, Kubeflow and Docker.
 
 ## ✍ Authors
-* Pia-Auora McLaughlin, [piamclaughlin](https://github.com/PiaMcLaughlin)
+* Pia-Auora McLaughlin, [PiaMcLaughlin](https://github.com/PiaMcLaughlin)
 * Sabeel Rehman, [SabeelRehman](https://github.com/sabeelrehman)
 * Amit Som, [AmitSom](https://github.com/DeeDossAttk)
 
@@ -51,6 +51,8 @@ Do the following in the {capstone4_initals)_bucket
 6.	Create a pipeline in python using the Kubeflow API 
     The pipeline can runas a script or manually at the pipeline dashboard from 1
 **##In order to run the pipeline, you need to have the appropriate role**
+
+<img src = "[https://global-uploads.webflow.com/5d3ec351b1eba4332d213004/5ec509611b60fb7f14e7e7ce_kubeflow-logo.png](https://www.clevr.com/hs-fs/hubfs/common_stages_in_CICD_process.png?width=1594&name=common_stages_in_CICD_process.png)" align="right" height = 50 width = 60/>
 
 ## 🛠 CI
 Continuous Testing (CI) To set up CI and rebuild at every push:
