@@ -53,8 +53,9 @@ Do the following in the {capstone4_initals)_bucket
 
 **In order to run the pipeline, you need to have the appropriate role**
 
+## 🛠📦CI/CD
 <p align="center">
-  <img width="600" alt="cicd" src="![image](https://user-images.githubusercontent.com/32612535/172225468-265eed77-bc81-4018-867b-149d682d210b.png)">
+  <img width="800" alt="cicd" src="https://www.jo3-w3b-d3v.com/wp-content/uploads/2019/07/cicd-pipeline-1024x355.png">
 </p>
 
 ## 🛠 CI
