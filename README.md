@@ -4,15 +4,14 @@
 
 <img src ="https://logos-world.net/wp-content/uploads/2021/02/Docker-Logo-2013-2015.png" align = "right" height = 50 width = 70 />
 
-
 In capstone 4 you will demonstrate how to set up and deploy a simple ML CI/CD pipeline using Google Clouds AI Platform, Kubeflow and Docker.
 
-## ✍ Authors
+## :pinched_fingers: Authors
 * Pia-Auora McLaughlin, [PiaMcLaughlin](https://github.com/PiaMcLaughlin)
 * Sabeel Rehman, [SabeelRehman](https://github.com/sabeelrehman)
 * Amit Som, [AmitSom](https://github.com/DeeDossAttk)
 
-## 🗺 Objectives
+## :jigsaw: Objectives
 1. Build each task as a docker container and run the containers with cloud build
 	a. Preprocessing step: Load data from GCS bucket, edit and store as a new file
 	b.Training: Create a Pytorch   model to build a custom prediction routine (TensorFlow)
@@ -26,10 +25,9 @@ In capstone 4 you will demonstrate how to set up and deploy a simple ML CI/CD pi
   <img width="600" alt="gcloud_meme" src="https://i.redd.it/hll26nwmlsu31.jpg">
 </p>
 
-
 <img src = "https://global-uploads.webflow.com/5d3ec351b1eba4332d213004/5ec509611b60fb7f14e7e7ce_kubeflow-logo.png" align="right" height = 50 width = 60/>
 
-## 🌉 Setting up the pipeline 
+## :ladder: Setting up the pipeline 
 1.	Clone the [Git repository](https://github.com/PiaMcLaughlin/Capstone-4.git) 
 2.	Create a Kubeflow pipeline in GCP
 3.	Create two buckets in GCS, one for the project and one for data
@@ -53,21 +51,21 @@ Do the following in the {capstone4_initals)_bucket
 
 **In order to run the pipeline, you need to have the appropriate role**
 
-## 🛠📦CI/CD
+## :gear: :arrows_clockwise: CI/CD
 <p align="center">
   <img width="800" alt="cicd" src="https://www.jo3-w3b-d3v.com/wp-content/uploads/2019/07/cicd-pipeline-1024x355.png">
 </p>
 
-## 🛠 CI
-Continuous Testing (CI) To set up CI and rebuild at every push:
+## :gear: CI
+To set up Continuous Testing (CI) and rebuild at every push:
 
 Connect gcloud to GitHub, either in the Trigger UI or run: 
 	`$ ./scripts setup_trigger.sh`
 Push the newly created Cloud builds from GCP into the origin otherwise the trigger won’t find them
 This trigger will run every time a push to master happens in any of the containers and thus rebuild the affected Docker Image
 
-## 📦 CD
-Continuous Delivery (CD) CD is necessary when we want to retrain/finetune the model give that we can get new data, not every time we update a component. So we will have a Cloud function that will trigger a training pipeline when we upload new data to the Cloud Storage.
+## :arrows_clockwise: CD
+Continuous Delivery (CD) s necessary when we want to retrain or finetune the model give that we can get new data, not every time we update a component. So we will have a Cloud function that will trigger a training pipeline when we upload new data to the Cloud Storage.
 
 Get the pipeline host url from pipeline settings
 In the pipeline folder, run the deploy script 
@@ -76,14 +74,12 @@ When a new file is added or deleted from the
 `{cap4_teamname}_bucket`
 , it will rerun the pipeline
 
-
-## 👓 Resources
+## :link: Resources
 * [Deploy your own custom model on GCP’s AI platform](https://medium.com/searce/deploy-your-own-custom-model-on-gcps-ai-platform-7e42a5721b43)
 * [How to carry out CI/CD in Machine Learning (“MLOps”) using Kubeflow ML pipelines](https://medium.com/google-cloud/how-to-carry-out-ci-cd-in-machine-learning-mlops-using-kubeflow-ml-pipelines-part-3-bdaf68082112)
 * [GCP documentation on model deployment](https://cloud.google.com/ai-platform/prediction/docs/deploying-models)
 * [What is CI/CD?](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
 * [Kubeflow](https://www.kubeflow.org/docs/components/pipelines/introduction/)
 
-
-## 📽 Video Demo (Upload to YT?. Just record what I do)
+## :film_strip: Video Demo (Upload to YT?. Just record what I do)
 Demo video [here](link goes here). 
