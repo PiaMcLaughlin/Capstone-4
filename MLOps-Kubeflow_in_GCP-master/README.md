@@ -1,8 +1,8 @@
-<img src = "https://www.gend.co/hs-fs/hubfs/gcp-logo-cloud.png?width=730&name=gcp-logo-cloud.png" align="right" height = 50 width = 60/>
+<!--img src = "https://www.gend.co/hs-fs/hubfs/gcp-logo-cloud.png?width=730&name=gcp-logo-cloud.png" align="right" height = 50 width = 60/!-->
 
 # MLOPS with Kubeflow Pipelines in GCP
 
-<img src ="https://logos-world.net/wp-content/uploads/2021/02/Docker-Logo-2013-2015.png" align = "right" height = 50 width = 70 />
+<!--img src ="https://logos-world.net/wp-content/uploads/2021/02/Docker-Logo-2013-2015.png" align = "right" height = 50 width = 70 /!-->
 
 In capstone 4 you will demonstrate how to set up and deploy a simple ML CI/CD pipeline using Google Clouds AI Platform, Kubeflow and Docker.
 
